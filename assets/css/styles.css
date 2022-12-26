@@ -1,0 +1,184 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+/* header*/
+.header{
+    width: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.header_logo{
+    width: 20%;
+    margin-left: 410px;
+
+    }
+.navegador {
+    display: block;
+    width: 100%;
+    list-style: none;
+    text-decoration: none;
+    background-color:rgb(226, 43, 119);
+    color: blanchedalmond;
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+    padding: 10px;
+}   
+/*footer*/
+.footer {
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(226, 43, 119);
+    color: aliceblue;
+}
+/*titulos*/
+h1 {
+    font-size: 50px;
+    color: rgb(226, 43, 119);;
+    
+}
+h2{
+    font-size: 30px;
+    color: rgb(226, 43, 119);
+    text-align: center;
+    padding: 2px;
+    margin: 5px;
+}
+h4 {
+    font-size: 20px;
+    color: rgb(20, 19, 20);
+}
+
+/*index*/
+.portada {
+    width: 400px;
+    height: 550px;
+    padding: 10px;
+    margin: 10px;
+}
+.portada_titulo {
+    display: inline-block;
+    text-align: center
+}
+.portada_imagen:hover{
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    transform: scale(1.5,1.5);
+    transition: 1s;
+}
+.portada_texto {
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+}
+.reservarhab {
+    margin: 10px;
+    padding: 10px;
+    border: 2px;
+    border-style:double;
+    border color; rgb(226, 43, 119); 
+}
+.reservarhab_datos {
+    margin: 5px;
+    padding: 5px; 
+}
+
+
+/*habitaciones*/
+.habitaciones_img {
+    display:inline-block;
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+    padding: 10px;
+}
+.habitaciones_descripcion {
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+}
+/*contacto*/
+.contacto {
+    margin: 10px;
+    padding: 10px;
+}
+.contacto_borde {
+    border:solid 2px;
+}
+.contacto_cotizacion{
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+}
+.contacto_titulos {
+    color:black;
+    font-weight: bold;
+}
+.puestoslaborales {
+    width: 450px;
+    margin: 10px;
+    padding: 10px;
+}
+.puestoslaborales_img {
+    width: 100%
+}
+.puestoslaborales_tarjeta {
+    display: block;
+    width: 250px;
+    margin: 10px;
+    padding: 10px;
+    border: solid;
+    border-color: black;
+}
+/*nuestrohotel*/
+.historia{
+    margin: 10px;
+    padding: 10px;
+}
+.historia_texto {
+    display: inline-block;
+    margin: 10px;
+    pad: 10px;
+    text-align: center;
+}
+.historia_video{
+    margin: 10px;
+    padding-left: 100px;
+}
+.misionyvalores {
+    padding: 10px;
+    margin: 10px;
+}
+/*ubicación*/
+.ubicacion {
+    padding: 10px;
+    margin: 10px;
+}
+.ubicacion_mapa {
+    margin-left: 100px;
+    padding: 10px;
+}
+
+/*reuniones y eventos*/
+.eventos { 
+    margin: 10px;
+    padding: 10px;
+}
+.eventos_img {
+    width: 350px;
+    height: 250px;
+    padding-left: 100px;
+    margin: 10px;
+
+}
+.eventos_cotizar {
+    margin: 10px;
+    padding: 10px;
+    border: solid;
+    border-color: rgb(179, 28, 86);
+    color: black;
